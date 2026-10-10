@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment files — NEVER commit real credentials
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+*.tsbuildinfo
+
+# Runtime logs
+*.log
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Supabase local dev (if initialized later)
+supabase/.temp/
+
+# Codebuff/Freebuff internal workspace artifacts
+.freebuff/
